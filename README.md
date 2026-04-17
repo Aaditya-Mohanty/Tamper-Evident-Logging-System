@@ -40,9 +40,15 @@ Each log entry contains:
 ## 📂 Project Structure
 
 Assingnment/
+
 │
+
 ├── tamper_log.py # Core logging logic
+
 ├── log_dashboard.py # UI for adding & verifying logs
+
 ├── fake_login_gui.py # Deception login interface
+
 ├── admin_dashboard.py # View logs (monitoring system)
+
 ├── logs.json # Stored logs
