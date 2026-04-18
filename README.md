@@ -1,4 +1,4 @@
-# 🔐 Tamper-Evident Logging System
+# Tamper-Evident Logging System
 
 A secure logging system that ensures the **integrity and reliability of logs** by preventing undetected modification, deletion, or reordering of log entries.
 
@@ -8,16 +8,16 @@ This project uses a **hash-chaining mechanism (similar to blockchain)** where ea
 
 ## 🚀 Features
 
-- 🔗 Hash-based log chaining (SHA-256)
-- 🛡️ Tamper detection (modification, deletion, reordering)
-- 📝 Secure log entry system
-- 📊 Admin dashboard to view logs
-- 🎭 Fake login (deception system) to capture suspicious activity
-- ✅ Log integrity verification
+-  Hash-based log chaining (SHA-256)
+-  Tamper detection (modification, deletion, reordering)
+-  Secure log entry system
+-  Admin dashboard to view logs
+-  Fake login (deception system) to capture suspicious activity
+-  Log integrity verification
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 Each log entry contains:
 
@@ -27,7 +27,7 @@ Each log entry contains:
 - Previous hash  
 - Current hash  
 
-### 🔄 Process:
+###  Process:
 1. First log (GENESIS) is created  
 2. Each new log stores the hash of the previous log  
 3. A new hash is generated using log data + previous hash  
@@ -35,20 +35,5 @@ Each log entry contains:
    - If any log is changed → hash mismatch  
    - System detects tampering instantly  
 
----
 
-## 📂 Project Structure
 
-Assingnment/
-
-│
-
-├── tamper_log.py # Core logging logic
-
-├── log_dashboard.py # UI for adding & verifying logs
-
-├── fake_login_gui.py # Deception login interface
-
-├── admin_dashboard.py # View logs (monitoring system)
-
-├── logs.json # Stored logs
