@@ -6,7 +6,7 @@ This project uses a **hash-chaining mechanism (similar to blockchain)** where ea
 
 ---
 
-## 🚀 Features
+##  Features
 
 -  Hash-based log chaining (SHA-256)
 -  Tamper detection (modification, deletion, reordering)
