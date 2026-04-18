@@ -34,6 +34,8 @@ Each log entry contains:
 4. During verification:
    - If any log is changed → hash mismatch  
    - System detects tampering instantly  
+You dont have to create logs.py for logs it will created by its own , when you will make a input .
+
 
 
 
