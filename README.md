@@ -6,6 +6,8 @@ This project uses a **hash-chaining mechanism (similar to blockchain)** where ea
 
 ---
 
+
+
 ##  Features
 
 -  Hash-based log chaining (SHA-256)
